@@ -42,10 +42,7 @@ public class A4ExhaustiveSearch {
     }
 
     public static byte[] bruteForceKey(byte[] ct, String message) throws Exception {
-        //Task: You know the plain text of the message, as well as the last 5 bytes out of 8 that were used as keydata 
-        // in the secretKeySpec. Write an algoritihm that tries to encrypt the ciphertext using all possible key combinations until the 
-        // ciphertext is encrypted to the known plain text
-         
+            
 
         for (int byte1 = 0; byte1 < 256; byte1++) {
             for (int byte2 = 0; byte2 < 256; byte2++) {
