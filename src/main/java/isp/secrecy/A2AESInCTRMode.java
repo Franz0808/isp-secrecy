@@ -32,7 +32,7 @@ public class A2AESInCTRMode {
         env.add(new Agent("alice") {
             @Override
             public void task() throws Exception {
-                final String message = "I love you Bob. Kisses, Alice.";
+                final String message = "I love you Bobo. Kisses, Alice.";
                 /* TODO STEP 3:
                  * Alice creates, encrypts and sends a message to Bob. Bob replies to the message.
                  * Such exchange repeats 10 times.

@@ -24,7 +24,7 @@ import javax.crypto.spec.SecretKeySpec;
 public class A4ExhaustiveSearch {
     public static void main(String[] args) throws Exception {
         final String message = "I would like to keep this text confidential Bob. Kind regards, Alice.";
-        System.out.println("[MESSAGE] " + message);
+        //System.out.println("[MESSAGE] " + message);
 
         // TODO
         byte[] keyData = { 100,70, 20, 0, 0, 0, 0, 0};
